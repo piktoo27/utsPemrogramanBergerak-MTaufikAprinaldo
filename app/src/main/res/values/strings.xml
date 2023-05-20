@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ManchesterUnited(uts)</string>
+    <string name="open_nav">Open ManchesterUnited(uts)</string>
+    <string name="close_nav">Close ManchesterUnited(uts)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome United Fans</string>
+</resources>

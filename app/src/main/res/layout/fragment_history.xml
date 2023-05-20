@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    tools:context=".HistoryFragment"
+    android:background="#DC143C">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="History of Manchester United"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="179dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="FOUNDED IN 1878 AS NEWTON HEATH LnYR FOOTBALL CLUB, OUR CLUB HAS OPERATED FOR OVER 140 YEARS. THE TEAM FIRST ENTERED THE ENGLISH FIRST DIVISION, THEN THE HIGHEST LEAGUE IN ENGLISH FOOTBALL, FOR THE START OF THE 1892-93 SEASON. OUR CLUB NAME CHANGED TO MANCHESTER UNITED FOOTBALL CLUB IN 1902, AND WE WON THE FIRST OF OUR 20 ENGLISH LEAGUE TITLES IN 1908. IN 1910, WE MOVED TO OLD TRAFFORD, OUR CURRENT STADIUM." />
+
+
+</RelativeLayout>

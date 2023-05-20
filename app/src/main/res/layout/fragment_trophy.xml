@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrophyFragment"
+    android:background="#DC143C">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="All Trophy"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/img_3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="bottom"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="20X ENGLISH CHAMPION, 1X UEFA SUPERCUP WINNER, 1X EUROPA LEAGUE WINNER, 1X CUP WINNERS CUP WINNER, 12X FA CUP WINNER, 6X ENGLISH LEAGUE CUP WINNER, 21X ENGLISH SUPERCUP WINNER, 1X INTERCONTINENTAL CUP WINNER, 2X ENGLISH 2ND TIER CHAMPION" />
+
+</FrameLayout>

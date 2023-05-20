@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/mu"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/sejarah"
+            android:title="History"/>
+        <item
+            android:id="@+id/nav_trophy"
+            android:icon="@drawable/piala"
+            android:title="Trophy"/>
+        <item
+            android:id="@+id/nav_squad"
+            android:icon="@drawable/squad"
+            android:title="Squad"/>
+
+        <item
+            android:id="@+id/nav_stadium"
+            android:icon="@drawable/stadium"
+            android:title="Stadium"/>
+    </group>
+
+</menu>
